@@ -1,0 +1,8 @@
+"type","name","begintime","create_rds_snapshot","default_timezone","description","enable_SSM_maintenance_windows","endtime","months","override_status","regions","schedule_clusters","schedule_lambda_account","scheduled_services","started_tags","stopped_tags","tagname","trace","use_metrics","weekdays"
+"config","scheduler","","false","UTC","","false","","","","[""us-east-1""]","false","true","[""ec2""]","started by=instance-schedular","stoped by=instance-schedular","Schedule","true","false",""
+"schedule","running","","","","Instances running","","","","running","","","","","","","","","false",""
+"schedule","stopped","","","","Instances stopped","","","","stopped","","","","","","","","","false",""
+"period","first-monday-in-quarter","","","","Every first monday of each quarter","","","[""jan/3""]","","","","","","","","","","","[""mon#1""]"
+"period","office-hours","09:00","","","Office hours","","17:00","","","","","","","","","","","","[""mon-fri""]"
+"period","weekends","","","","Days in weekend","","","","","","","","","","","","","","[""sat-sun""]"
+"period","working-days","","","","Working days","","","","","","","","","","","","","","[""mon-fri""]"
